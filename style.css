@@ -4,24 +4,36 @@ h1 {
   font-size: 40px;
 }
 body {
-  background-color: chartreuse;
+  background-color: cadetblue;
 }
 #container-1 {
-  padding: 0px 170px;
+  width: 100%;
+  height: fit-content;
+  padding: 0px 380px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
-div:nth-of-type(odd) {
-  background-color: black;
-  height: 110px;
-  width: 130px;
+/* div:nth-of-type(odd) {
+  background-color: greenyellow;
+  height: 70px;
+  width: 80px;
 }
 div:nth-of-type(even) {
   background-color: white;
-  height: 110px;
-  width: 130px;
+  height: 70px;
+  width: 80px;
+} */
+.white {
+  background-color: white;
+  height: 60px;
+  width: 70px;
+}
+.green {
+  background-color: greenyellow;
+  height: 60px;
+  width: 70px;
 }
